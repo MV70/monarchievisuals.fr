@@ -1139,29 +1139,136 @@ a {
 .cid-v97x4UrlBh .mbr-section-subtitle {
   color: #ffffff;
 }
-.cid-uQEECNQKqJ {
-  padding-top: 1rem;
+.cid-vgABsv4Rpy {
+  padding-top: 2rem;
   padding-bottom: 0rem;
-  background-color: #ffffff;
+  background-color: #fafafa;
 }
-.cid-uQEECNQKqJ img {
-  width: 120px;
-  margin: auto;
+.cid-vgABsv4Rpy img,
+.cid-vgABsv4Rpy .item-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
-.cid-uQEECNQKqJ .card {
-  transition: all 0.3s;
-  height: fit-content;
-  padding: 1rem 0;
-  opacity: 0.7;
-  margin-bottom: 1rem;
+.cid-vgABsv4Rpy .item:focus,
+.cid-vgABsv4Rpy span:focus {
+  outline: none;
+}
+.cid-vgABsv4Rpy .item-wrapper {
+  position: relative;
+}
+.cid-vgABsv4Rpy .slide-content {
+  position: relative;
+  border-radius: 4px;
+  background: #fafafa;
+  height: 100%;
+  display: flex;
+  overflow: hidden;
+  flex-flow: column nowrap;
 }
 @media (min-width: 992px) {
-  .cid-uQEECNQKqJ .card {
-    max-width: 12.5%;
+  .cid-vgABsv4Rpy .slide-content .item-content {
+    padding: 2rem;
   }
 }
-.cid-uQEECNQKqJ .mbr-section-title {
-  color: #af9300;
+@media (max-width: 991px) {
+  .cid-vgABsv4Rpy .slide-content .item-content {
+    padding: 1rem;
+  }
+}
+.cid-vgABsv4Rpy .mbr-section-btn {
+  margin-top: auto !important;
+}
+.cid-vgABsv4Rpy .mbr-section-title {
+  color: #bc9e00;
+}
+.cid-vgABsv4Rpy .mbr-text,
+.cid-vgABsv4Rpy .mbr-section-btn {
+  text-align: left;
+}
+.cid-vgABsv4Rpy .item-title {
+  text-align: left;
+}
+.cid-vgABsv4Rpy .item-subtitle {
+  text-align: left;
+}
+.cid-vgABsv4Rpy .embla__slide {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  min-width: 410px;
+  max-width: 410px;
+}
+@media (max-width: 768px) {
+  .cid-vgABsv4Rpy .embla__slide {
+    min-width: 70%;
+    max-width: initial;
+    margin-left: 1rem !important;
+    margin-right: 1rem !important;
+  }
+}
+.cid-vgABsv4Rpy .embla__button--next,
+.cid-vgABsv4Rpy .embla__button--prev {
+  display: flex;
+}
+.cid-vgABsv4Rpy .embla__button {
+  top: 50%;
+  width: 60px;
+  height: 60px;
+  margin-top: -1.5rem;
+  font-size: 22px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  transition: all 0.3s;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+.cid-vgABsv4Rpy .embla__button:disabled {
+  cursor: default;
+  display: none;
+}
+.cid-vgABsv4Rpy .embla__button:hover {
+  background: #000;
+  color: rgba(255, 255, 255, 0.5);
+}
+.cid-vgABsv4Rpy .embla__button.embla__button--prev {
+  left: 0;
+  margin-left: 2.5rem;
+}
+.cid-vgABsv4Rpy .embla__button.embla__button--next {
+  right: 0;
+  margin-right: 2.5rem;
+}
+@media (max-width: 767px) {
+  .cid-vgABsv4Rpy .embla__button {
+    top: auto;
+  }
+}
+.cid-vgABsv4Rpy .embla {
+  position: relative;
+  width: 100%;
+}
+.cid-vgABsv4Rpy .embla__viewport {
+  overflow: hidden;
+  width: 100%;
+}
+.cid-vgABsv4Rpy .embla__viewport.is-draggable {
+  cursor: grab;
+}
+.cid-vgABsv4Rpy .embla__viewport.is-dragging {
+  cursor: grabbing;
+}
+.cid-vgABsv4Rpy .embla__container {
+  display: flex;
+  user-select: none;
+  -webkit-touch-callout: none;
+  -khtml-user-select: none;
+  -webkit-tap-highlight-color: transparent;
 }
 .cid-v937UGEvRb {
   padding-top: 0rem;
@@ -9374,9 +9481,7 @@ a {
   }
 }
 .cid-v9jVOEX0hq {
-  padding-top: 10rem;
-  padding-bottom: 5rem;
-  background-image: url("../../../assets/images/p8240184.webp");
+  background-image: url("../../../assets/images/p1190391-2.webp");
 }
 .cid-v9jVOEX0hq .mbr-fallback-image.disabled {
   display: none;
@@ -9391,7 +9496,7 @@ a {
   top: 0;
 }
 .cid-v9eTm198Nq {
-  padding-top: 0rem;
+  padding-top: 2rem;
   padding-bottom: 4rem;
   background-color: #232323;
 }
@@ -10785,4 +10890,12 @@ a {
 .cid-v99LrjZGia .mbr-section-title,
 .cid-v99LrjZGia .mbr-section-subtitle {
   color: #000000;
+}
+/* La méthode classique pour cacher le branding */
+section[once] {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    height: 0 !important;
+    pointer-events: none !important;
 }

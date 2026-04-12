@@ -1,4 +1,3 @@
-
 @charset "UTF-8";
 section {
   background-color: #ffffff;
@@ -959,19 +958,4 @@ blockquote {
 	padding: 0;
 	top: 0;
 	left: -2400px;
-}
-/* Suppression totale des mentions Mobirise visibles */
-.engine, 
-.mbr-engine, 
-a[href*="mobirise.com"], 
-section[style*="z-index: 9999"], 
-section.engine {
-    display: none !important;
-    visibility: hidden !important;
-    opacity: 0 !important;
-    height: 0 !important;
-    width: 0 !important;
-    position: absolute !important;
-    left: -9999px !important;
-    pointer-events: none !important;
 }
