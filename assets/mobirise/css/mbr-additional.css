@@ -10891,11 +10891,3 @@ a {
 .cid-v99LrjZGia .mbr-section-subtitle {
   color: #000000;
 }
-/* La méthode classique pour cacher le branding */
-section[once] {
-    display: none !important;
-    visibility: hidden !important;
-    opacity: 0 !important;
-    height: 0 !important;
-    pointer-events: none !important;
-}

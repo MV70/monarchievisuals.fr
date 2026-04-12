@@ -959,3 +959,29 @@ blockquote {
 	top: 0;
 	left: -2400px;
 }
+/* Masquage de la mention Mobirise - Version style.css */
+section[once="footers"] + section[style*="z-index: 9999"], 
+.mbr-section-footer + div[style*="z-index: 9999"],
+div[style*="z-index: 9999"][style*="position: fixed"],
+a[href*="mobirise.com"] {
+    display: block !important;
+    position: absolute !important;
+    clip: rect(1px, 1px, 1px, 1px) !important;
+    clip-path: inset(50%) !important;
+    height: 1px !important;
+    width: 1px !important;
+    margin: -1px !important;
+    padding: 0 !important;
+    overflow: hidden !important;
+    white-space: nowrap !important;
+    opacity: 0 !important;
+    pointer-events: none !important;
+}
+
+/* Suppression de l'espace vide résiduel en bas de page */
+div[style*="z-index: 9999"] {
+    height: 0 !important;
+    min-height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
